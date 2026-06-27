@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HACKED BY RISK DZ</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000;
+            color: #0f0;
+            font-family: 'Share Tech Mono', monospace;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #matrix-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+
+        .content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            animation: glitch 2s infinite;
+        }
+
+        .skull {
+            font-size: 120px;
+            margin-bottom: 20px;
+            animation: pulse 1.5s ease-in-out infinite;
+            text-shadow: 0 0 20px #0f0, 0 0 40px #0f0, 0 0 60px #0f0;
+        }
+
+        .title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 60px;
+            font-weight: 900;
+            color: #ff0000;
+            text-shadow: 
+                0 0 10px #ff0000,
+                0 0 20px #ff0000,
+                0 0 40px #ff0000,
+                0 0 80px #ff0000;
+            margin-bottom: 10px;
+            letter-spacing: 10px;
+        }
+
+        .subtitle {
+            font-size: 24px;
+            color: #0ff;
+            text-shadow: 0 0 10px #0ff;
+            margin-bottom: 30px;
+        }
+
+        .message {
+            font-size: 18px;
+            color: #0f0;
+            max-width: 800px;
+            line-height: 1.8;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #0f0;
+            background: rgba(0, 255, 0, 0.05);
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+        }
+
+        .team {
+            font-size: 30px;
+            color: #ff0;
+            text-shadow: 0 0 20px #ff0;
+            margin-top: 30px;
+            animation: blink 1s infinite;
+        }
+
+        .greetz {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #888;
+        }
+
+        .greetz span {
+            color: #0f0;
+            text-shadow: 0 0 5px #0f0;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        @keyframes glitch {
+            0%, 90%, 100% { transform: translate(0); }
+            92% { transform: translate(-5px, 2px); }
+            94% { transform: translate(5px, -2px); }
+            96% { transform: translate(-3px, 1px); }
+            98% { transform: translate(3px, -1px); }
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+
+        .scan-line {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: rgba(0, 255, 0, 0.5);
+            animation: scan 3s linear infinite;
+            z-index: 100;
+            box-shadow: 0 0 20px #0f0;
+        }
+
+        @keyframes scan {
+            0% { top: 0; }
+            100% { top: 100vh; }
+        }
+
+        .terminal {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            font-size: 12px;
+            color: #0f0;
+            opacity: 0.7;
+        }
+
+        .ip-display {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            font-size: 14px;
+            color: #ff0;
+            text-shadow: 0 0 10px #ff0;
+        }
+    </style>
+<base target="_blank">
+</head>
+<body>
+    <canvas id="matrix-canvas"></canvas>
+    <div class="scan-line"></div>
+
+    <div class="ip-display">
+        TARGET: media.avito.ma<br>
+        STATUS: COMPROMISED<br>
+        TIME: <span id="time"></span>
+    </div>
+
+    <div class="content">
+        <div class="skull">&#x2620;</div>
+        <div class="title">HACKED BY RISK DZ</div>
+        <div class="subtitle">SYSTEM BREACH DETECTED</div>
+
+        <div class="message">
+            <p>Your security is just an illusion.</p>
+            <p>We are the ghosts in your machine.</p>
+            <p>No system is safe. No data is secure.</p>
+            <p>We see everything. We know everything.</p>
+            <p style="margin-top: 20px; color: #ff0000; font-size: 20px;">
+                [+] Root access obtained<br>
+                [+] Database dumped<br>
+                [+] Backdoor installed<br>
+                [+] System owned by RISK DZ
+            </p>
+        </div>
+
+        <div class="team">RISK DZ - ALGERIAN HACKERS</div>
+
+        <div class="greetz">
+            <span>GREETZ TO:</span> ALL ALGERIAN HACKERS | ENI | LO | THE SILENT ONES<br>
+            <span>SHOUT OUT TO:</span> DZ HACKERS COMMUNITY | MAGHREB CYBER ARMY
+        </div>
+    </div>
+
+    <div class="terminal">
+        > initializing breach...<br>
+        > bypassing firewall...<br>
+        > extracting credentials...<br>
+        > uploading payload...<br>
+        > root@media.avito.ma:~# _
+    </div>
+
+    <!-- Background Music -->
+    <audio autoplay loop>
+        <source src="https://files.catbox.moe/mx0vx4.mp3" type="audio/mpeg">
+        <!-- Alternative: Cyberpunk/Hacker music -->
+    </audio>
+
+    <script>
+        // Matrix rain effect
+        const canvas = document.getElementById('matrix-canvas');
+        const ctx = canvas.getContext('2d');
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*()RISKDZ';
+        const fontSize = 14;
+        const columns = canvas.width / fontSize;
+        const drops = [];
+
+        for (let i = 0; i < columns; i++) {
+            drops[i] = Math.random() * -100;
+        }
+
+        function drawMatrix() {
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.fillStyle = '#0f0';
+            ctx.font = fontSize + 'px monospace';
+
+            for (let i = 0; i < drops.length; i++) {
+                const text = chars[Math.floor(Math.random() * chars.length)];
+                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+                if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+                    drops[i] = 0;
+                }
+                drops[i]++;
+            }
+        }
+
+        setInterval(drawMatrix, 50);
+
+        // Update time
+        function updateTime() {
+            const now = new Date();
+            document.getElementById('time').textContent = now.toUTCString();
+        }
+        setInterval(updateTime, 1000);
+        updateTime();
+
+        // Random glitch effect
+        setInterval(() => {
+            document.body.style.filter = 'hue-rotate(' + Math.random() * 360 + 'deg)';
+            setTimeout(() => {
+                document.body.style.filter = 'none';
+            }, 100);
+        }, 5000);
+
+        // Console message
+        console.log('%c HACKED BY RISK DZ ', 'background: #ff0000; color: #fff; font-size: 40px; font-weight: bold;');
+        console.log('%c Your system has been compromised. ', 'background: #000; color: #0f0; font-size: 20px;');
+    </script>
+</body>
+</html>
